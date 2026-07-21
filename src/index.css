@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+@layer utilities {
+  .pixel-border {
+    box-shadow: 
+      0 -4px 0 0 #1e293b,
+      0 4px 0 0 #1e293b,
+      -4px 0 0 #1e293b,
+      4px 0 0 #1e293b;
+  }
+  .pixel-border-warning {
+    box-shadow: 
+      0 -4px 0 0 #ea580c,
+      0 4px 0 0 #ea580c,
+      -4px 0 0 #ea580c,
+      4px 0 0 #ea580c;
+  }
+}
+
+/* Custom scrollbars for dark gaming theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f97316;
+}

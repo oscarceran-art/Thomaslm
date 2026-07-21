@@ -1,0 +1,6 @@
+{
+  "name": "GoSurvival Dossier - Hold Thomas Accountable",
+  "description": "A single-page community report and evidence hub documenting rule violations on the GoSurvival server.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
